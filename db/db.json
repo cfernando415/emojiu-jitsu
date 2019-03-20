@@ -1,0 +1,54 @@
+{
+  "emoji": [
+    {
+      "id": 1,
+      "image": "😃",
+      "definitions": ["smiley"]
+    },
+    {
+      "id": 2,
+      "image": "😁",
+      "definitions": ["grin"]
+    },
+    {
+      "id": 3,
+      "image": "😍",
+      "definitions": ["heart eyes"]
+    },
+    {
+      "id": 4,
+      "image": "😂",
+      "definitions": ["joy"]
+    },
+    {
+      "id": 5,
+      "image": "😊",
+      "definitions": ["blush"]
+    },
+    {
+      "id": 6,
+      "image": "😇",
+      "definitions": ["innocent"]
+    },
+    {
+      "id": 7,
+      "image": "😉",
+      "definitions": ["wink"]
+    },
+    {
+      "id": 8,
+      "image": "😋",
+      "definitions": ["yum"]
+    },
+    {
+      "id": 9,
+      "image": "😞",
+      "definitions": ["disappointed"]
+    },
+    {
+      "id": 10,
+      "image": "😠",
+      "definitions": ["angry"]
+    }
+  ]
+}

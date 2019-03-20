@@ -1,0 +1,113 @@
+@import url("https://fonts.googleapis.com/css?family=Asap");
+
+* {
+  font-size: inherit;
+  font-family: inherit;
+}
+
+html {
+  font-size: calc(1em + 1vw);
+  font-family: Asap, sans-serif;
+}
+
+body {
+  max-width: 20rem;
+  margin: 0;
+  padding: 1rem;
+}
+
+body {
+  max-width: 40rem;
+  padding: 0 1rem;
+  font-size: 125%;
+  line-height: 1.5;
+  margin: 1.5rem auto;
+  font-family: Arial, sans-serif;
+}
+
+* {
+  color: inherit;
+  margin: 0;
+}
+
+[role="tablist"] {
+  padding: 0;
+}
+
+[role="tablist"] li,
+[role="tablist"] a {
+  display: inline-block;
+}
+
+[role="tablist"] a {
+  text-decoration: none;
+  padding: 0.5rem 1em;
+}
+
+[role="tablist"] [aria-selected] {
+  border: 2px solid;
+  background: #fff;
+  border-bottom: 0;
+  position: relative;
+  top: 2px;
+}
+
+[role="tabpanel"] {
+  border: 2px solid;
+  padding: 1.5rem;
+}
+
+[role="tabpanel"] * + * {
+  margin-top: 0.75rem;
+}
+
+*:focus {
+  outline: none;
+  box-shadow: inset 0 0 0 4px lightBlue;
+}
+
+#drawing {
+  width: 350px;
+  height: 250px;
+  background-color: #eee;
+}
+
+#emoji {
+  font-size: 40px;
+}
+
+#description {
+  padding-left: 0;
+}
+
+.livetag {
+  border: 1px, black, solid;
+}
+
+@media (max-width: 550px) {
+  [role="tablist"] li,
+  [role="tablist"] a {
+    display: block;
+    position: static;
+  }
+
+  [role="tablist"] a {
+    border: 2px solid #222 !important;
+  }
+
+  [role="tablist"] li + li a {
+    border-top: 0 !important;
+  }
+
+  [role="tablist"] [aria-selected] {
+    position: static;
+  }
+
+  [role="tablist"] [aria-selected]::after {
+    content: "\0020⬅";
+  }
+
+  [role="tabpanel"] {
+    border-top: 0;
+  }
+}

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Emojiu-jitsu</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+
+  <body>
+    <div class="tabbed">
+      <ul>
+        <li>
+          <a href="#section1">Define</a>
+        </li>
+        <li>
+          <a href="#section2">Read</a>
+        </li>
+        <li>
+          <a href="#section3">About</a>
+        </li>
+      </ul>
+      <section id="section1">
+        <h2>What's that emoji?</h2>
+        <p>Add your own label to this emoji and hit submit:</p>
+        <p id="emoji"></p>
+        <ul id="description" style="list-style: none;"></ul>
+        <div class="livetag">
+          <input type="textfield" />
+          <button id="submit">submit</button>
+        </div>
+      </section>
+
+      <section id="section2">
+        <p>
+          As an old guy, I can never be certain what a particular emoji means,
+          such as ☃ or 🍑 or 🥓. Some ARIA and CSS allows us to polish that 💩,
+          letting sighted, clueless users like me to benefit. To experience it,
+          put your mouse over any emoji here to see what it means. This does not
+          help keyboard-only users unless I start dropping a tabindex on them,
+          as I did with the keyboard and bacon above.
+        </p>
+      </section>
+      <section id="section3">
+        <h2>About Emojiujitsu</h2>
+        <p>
+          We live in oculo-centric times or what is called a “glance culture” as
+          language becomes increasingly visual. Glance culture means we use much
+          of visual media in the way we communicate without context, or
+          reference. One example is when a blind user doesn't have a context of
+          how emojis are used. This experiment is looking for other ways to
+          provide equity in accessing emojis through other modals.
+        </p>
+      </section>
+    </div>
+
+    <script src="js/index.js"></script>
+    <script src="js/emoji.js"></script>
+  </body>
+</html>
