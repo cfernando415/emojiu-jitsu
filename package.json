@@ -1,0 +1,22 @@
+{
+  "name": "emojiu-jitsu",
+  "version": "1.0.0",
+  "description": "A Pen created at CodePen.io. You can find this one at https://codepen.io/kriziaf/pen/wOmbPv.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cfernando415/emojiu-jitsu.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cfernando415/emojiu-jitsu/issues"
+  },
+  "homepage": "https://github.com/cfernando415/emojiu-jitsu#readme",
+  "devDependencies": {
+    "eslint": "^5.15.3"
+  }
+}

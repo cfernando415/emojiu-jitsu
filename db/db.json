@@ -2,53 +2,87 @@
   "emoji": [
     {
       "id": 1,
+      "name": "smiley",
       "image": "😃",
-      "definitions": ["smiley"]
+      "definitions": [
+        "happy",
+        "smiley"
+      ]
     },
     {
       "id": 2,
+      "name": "grin",
       "image": "😁",
-      "definitions": ["grin"]
+      "definitions": [
+        "grin"
+      ]
     },
     {
       "id": 3,
+      "name": "heart eyes",
       "image": "😍",
-      "definitions": ["heart eyes"]
+      "definitions": [
+        "heart eyes"
+      ]
     },
     {
       "id": 4,
+      "name": "joy",
       "image": "😂",
-      "definitions": ["joy"]
+      "definitions": [
+        "joy"
+      ]
     },
     {
       "id": 5,
+      "name": "blush",
       "image": "😊",
-      "definitions": ["blush"]
+      "definitions": [
+        "blush"
+      ]
     },
     {
       "id": 6,
+      "name": "innocent",
       "image": "😇",
-      "definitions": ["innocent"]
+      "definitions": [
+        "angel",
+        "innocent"
+      ]
     },
     {
       "id": 7,
+      "name": "wink",
       "image": "😉",
-      "definitions": ["wink"]
+      "definitions": [
+        "wink"
+      ]
     },
     {
       "id": 8,
+      "name": "yum",
       "image": "😋",
-      "definitions": ["yum"]
+      "definitions": [
+        "yum"
+      ]
     },
     {
       "id": 9,
+      "name": "disappointed",
       "image": "😞",
-      "definitions": ["disappointed"]
+      "definitions": [
+        "upset",
+        "disappointed"
+      ]
     },
     {
       "id": 10,
+      "name": "angry",
       "image": "😠",
-      "definitions": ["angry"]
+      "definitions": [
+        "frown with eyebrows crossing",
+        "angry"
+      ]
     }
   ]
 }

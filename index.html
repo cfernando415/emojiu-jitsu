@@ -4,9 +4,17 @@
     <meta charset="UTF-8" />
     <title>Emojiu-jitsu</title>
     <link rel="stylesheet" href="css/style.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Asap"
+      rel="stylesheet"
+    />
   </head>
 
   <body>
+    <header>
+      <h1>Emojiujitsu</h1>
+      <p id="tagline">A community-driven alt-text for emoji</p>
+    </header>
     <div class="tabbed">
       <ul>
         <li>
@@ -20,28 +28,42 @@
         </li>
       </ul>
       <section id="section1">
-        <h2>What's that emoji?</h2>
-        <p>Add your own label to this emoji and hit submit:</p>
-        <p id="emoji"></p>
-        <ul id="description" style="list-style: none;"></ul>
+        <h2>What's your take on this emoji?</h2>
+        <p id="title"></p>
+        <ul id="description"></ul>
+
         <div class="livetag">
           <input type="textfield" />
           <button id="submit">submit</button>
         </div>
+        <p>
+          <small><a id="next-button" href="#">next</a></small>
+        </p>
       </section>
 
       <section id="section2">
-        <p>
-          As an old guy, I can never be certain what a particular emoji means,
-          such as ☃ or 🍑 or 🥓. Some ARIA and CSS allows us to polish that 💩,
-          letting sighted, clueless users like me to benefit. To experience it,
-          put your mouse over any emoji here to see what it means. This does not
-          help keyboard-only users unless I start dropping a tabindex on them,
-          as I did with the keyboard and bacon above.
-        </p>
+        <h2 class="cta">Emoji Could Mean Anything</h2>
+        <div>
+          <input
+            id="searchField"
+            name="searchField"
+            type="textfield"
+            placeholder="search emoji"
+          />
+          <button id="search">search</button>
+        </div>
+        <hr />
+        <div id="search-results"></div>
       </section>
+
       <section id="section3">
         <h2>About Emojiujitsu</h2>
+        <p>
+          Emoji are ideagrams that we use to symbolize meaning in daily
+          conversations. It also reads differently on screenreaders with
+          confusing and long-winded labels. Can you tell the cultural meaning
+          behind 🍑 or 🍆? Why are there 17 different heart emoji?
+        </p>
         <p>
           We live in oculo-centric times or what is called a “glance culture” as
           language becomes increasingly visual. Glance culture means we use much
